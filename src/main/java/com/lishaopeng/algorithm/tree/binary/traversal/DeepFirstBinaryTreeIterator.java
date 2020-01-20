@@ -1,8 +1,8 @@
 package com.lishaopeng.algorithm.tree.binary.traversal;
 
 import com.lishaopeng.algorithm.linear.stack.ArrayStack;
-import com.lishaopeng.algorithm.tree.binary.BinaryTreeIterator;
 import com.lishaopeng.algorithm.tree.binary.BinaryTreeNode;
+import com.lishaopeng.algorithm.tree.binary.BinaryTreeIterator;
 
 public class DeepFirstBinaryTreeIterator<E> extends BinaryTreeIterator<E> {
     public DeepFirstBinaryTreeIterator(BinaryTreeNode<E> root) {

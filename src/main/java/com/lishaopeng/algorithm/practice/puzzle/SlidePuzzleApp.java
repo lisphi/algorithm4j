@@ -2,7 +2,7 @@ package com.lishaopeng.algorithm.practice.puzzle;
 
 import com.lishaopeng.algorithm.practice.puzzle.astar.AstarSlidePuzzle;
 
-public class SlidePuzzleApp {
+public final class SlidePuzzleApp {
     public static void main(String[] args) {
         byte row = 4, column = 4;
         byte inputBlankNum = (byte)(row * column);

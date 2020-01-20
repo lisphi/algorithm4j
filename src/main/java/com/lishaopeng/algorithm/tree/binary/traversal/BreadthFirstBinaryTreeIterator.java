@@ -2,8 +2,8 @@ package com.lishaopeng.algorithm.tree.binary.traversal;
 
 import com.lishaopeng.algorithm.linear.queue.ArrayQueue;
 import com.lishaopeng.algorithm.linear.queue.CocoaQueue;
-import com.lishaopeng.algorithm.tree.binary.BinaryTreeIterator;
 import com.lishaopeng.algorithm.tree.binary.BinaryTreeNode;
+import com.lishaopeng.algorithm.tree.binary.BinaryTreeIterator;
 
 public class BreadthFirstBinaryTreeIterator<E> extends BinaryTreeIterator<E> {
     public BreadthFirstBinaryTreeIterator(BinaryTreeNode<E> root) {

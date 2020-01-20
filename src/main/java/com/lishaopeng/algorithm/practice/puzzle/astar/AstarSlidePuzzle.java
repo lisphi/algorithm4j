@@ -1,9 +1,9 @@
 package com.lishaopeng.algorithm.practice.puzzle.astar;
 
-import com.lishaopeng.algorithm.practice.puzzle.PuzzleState;
-import com.lishaopeng.algorithm.practice.puzzle.SlidePuzzle;
 import com.lishaopeng.algorithm.hash.SimpleHashMap;
 import com.lishaopeng.algorithm.linear.array.SimpleArrayList;
+import com.lishaopeng.algorithm.practice.puzzle.PuzzleState;
+import com.lishaopeng.algorithm.practice.puzzle.SlidePuzzle;
 import com.lishaopeng.algorithm.tree.binary.BinaryHeap;
 
 public class AstarSlidePuzzle extends SlidePuzzle {

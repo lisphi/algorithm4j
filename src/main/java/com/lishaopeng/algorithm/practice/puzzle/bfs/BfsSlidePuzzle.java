@@ -1,10 +1,10 @@
 package com.lishaopeng.algorithm.practice.puzzle.bfs;
 
-import com.lishaopeng.algorithm.practice.puzzle.PuzzleState;
-import com.lishaopeng.algorithm.practice.puzzle.SlidePuzzle;
 import com.lishaopeng.algorithm.hash.SimpleHashMap;
 import com.lishaopeng.algorithm.linear.array.SimpleArrayList;
 import com.lishaopeng.algorithm.linear.queue.ArrayQueue;
+import com.lishaopeng.algorithm.practice.puzzle.PuzzleState;
+import com.lishaopeng.algorithm.practice.puzzle.SlidePuzzle;
 
 public class BfsSlidePuzzle extends SlidePuzzle {
     public BfsSlidePuzzle(byte row, byte column) {

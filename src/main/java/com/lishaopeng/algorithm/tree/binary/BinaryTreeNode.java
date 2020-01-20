@@ -39,7 +39,7 @@ public class BinaryTreeNode<E> {
     }
 
     static public <E> BinaryTreeNode<E> of(E data, BinaryTreeNode<E> left, BinaryTreeNode<E> right) {
-        return new BinaryTreeNode<>(data, left, right);
+        return new BinaryTreeNode<E>(data, left, right);
     }
 
     static public <E> BinaryTreeNode<E> of(E data) {
